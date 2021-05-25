@@ -1,0 +1,31 @@
+# Mac specific
+*.DS_Store
+
+# RStudio files
+*.Rproj.user
+
+# History files
+*.Rhistory
+*.RData
+*.Rapp.history
+
+# Cache
+*.rdb
+*.rdx
+
+# Output files
+*.html
+*.pdf
+*.docx
+
+# Latex
+*.aux
+*.synctex.gz
+*.toc
+
+cache/
+
+.Rproj.user
+
+# Miscellaneous output files 
+

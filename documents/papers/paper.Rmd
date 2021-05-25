@@ -1,0 +1,50 @@
+---
+title: "Title"
+author: "Joseph Flanagan"
+output:
+  bookdown::html_document2: default
+  bookdown::word_document2:
+      fig_caption: yes
+  bookdown::pdf_document2:
+      fig_caption: yes
+bibliography: "`r here::here('documents', 'biblio.bib')`" 
+csl: "`r here::here('documents', 'unified_ling.csl')`" 
+---
+
+```{r setup, include=FALSE, message=FALSE, echo=FALSE}
+# global option chunk
+knitr::opts_knit$set(root.dir = here::here()) # set root as working directory
+
+knitr::opts_chunk$set(tidy = TRUE,
+                      fig.retina = 2,
+                      echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      fig.path = here::here("documents", "figures/")) # note the extra /
+```
+
+```{r load-packages, include=FALSE, echo=FALSE, cache=FALSE}
+library(tidyverse)
+library(ProjectTemplate)
+
+```
+
+```{r setup-theme}
+theme_set(theme_minimal())
+```
+
+```{r load-project}
+
+# load project 
+load.project()
+```
+
+```{r sources}
+# Source for external code chunk
+#source(here::here("dir", "file")) 
+```
+
+```{r test}
+print("hello world")
+```
+
