@@ -8,7 +8,7 @@ This is my default setup for a project. I've modified [ProjectTemplate](http://p
 2. Delete the `.git` directory: (`rm -rf .git`)
 3. Rename `my-project-template.Rproj` to something meaningful¨
 4. Open the new project in RStudio
-5. Choose `Tools -> Project Options -> Environment in order to use the `renv` package to create an isolated package library
+5. Choose `Tools -> Project Options -> Environment` in order to use the `renv` package to create an isolated package library
 
 ### Using the Template
 
@@ -21,6 +21,8 @@ This is my default setup for a project. I've modified [ProjectTemplate](http://p
 
 
 ## Directory Structure
+
+```
 
 ├── LICENSE
 ├── cache              <- Cached data
@@ -52,7 +54,7 @@ This is my default setup for a project. I've modified [ProjectTemplate](http://p
 │
 └── tests              <- Scripts for testing
 
-
+```
 
 ## Session Information
 ```
