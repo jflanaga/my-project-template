@@ -15,8 +15,13 @@ csl: "`r here::here('documents', 'unified_ling.csl')`"
 # global option chunk
 knitr::opts_knit$set(root.dir = here::here()) # set root as working directory
 
-knitr::opts_chunk$set(tidy = TRUE,
+knitr::opts_chunk$set(tidy = TRUE,   # reformat code by style guide 
                       fig.retina = 2,
+                      fig.width = 6,
+                      fig.asp = 0.618,  # 1 / phi
+                      out.width = "70%",
+                      fig.align = "center",
+                      fig.show = "hold",
                       echo = FALSE,
                       message = FALSE,
                       warning = FALSE,
