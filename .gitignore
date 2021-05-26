@@ -23,8 +23,6 @@
 *.synctex.gz
 *.toc
 
-cache/
-
 .Rproj.user
 
 # Miscellaneous output files 
